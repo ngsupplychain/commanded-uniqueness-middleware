@@ -3,7 +3,7 @@ defmodule Commanded.Middleware.Uniqueness.Adapter.Nebulex do
 
   @moduledoc false
 
-  require Cachex.Spec
+  # require Cachex.Spec
 
   @by_value_key :bv
   @by_owner_key :bo
